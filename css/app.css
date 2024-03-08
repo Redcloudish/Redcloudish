@@ -1,11 +1,60 @@
-html {
-    background: black;
-    height: 100%;
-    overflow: hidden;
-}
-
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.bio {
+    border: 2px solid black; /* Add black border */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Add border radius */
+}
+
+.bio h2 {
+    color: #007bff;
+}
+
+.bio p {
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #333;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
